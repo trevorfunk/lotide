@@ -7,7 +7,7 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = (array) => {
- let head = array.shift();
+ const head = array.shift();
  return head;
 }
 
