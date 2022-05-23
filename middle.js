@@ -18,15 +18,22 @@ const assertArraysEqual = (array1, array2) => {
 }
 
 const middle = (array) => {
- newArray = []
+ let newArray = []
+ let num = 0;
   if (array.length <= 2) {
    return newArray;
   }
-}
+  console.log(array.length)
+  for (i = 0; i < array.length; i++) {
+   num += i;
+  }
+ 
 
 
 
-comiddle([1]) // => []
-middle([1, 2]) // => []
-middle([1, 2, 3]) // => [2]
-middle([1, 2, 3, 4, 5]) // => [3]
+// middle([1]) // => []
+// middle([1, 2]) // => []
+//middle([1, 2, 3]) // => [2]
+//middle([1, 2, 3, 4]) // => [2, 3]
+// middle([1, 2, 3, 4, 5]) // => [3]
+// middle([1, 2, 3, 4, 5, 6]) // => [3, 4]
