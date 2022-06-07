@@ -3,6 +3,4 @@ const tail = (array) => {
   return tail;
 };
 
-console.log(tail(["Hello", "Lighthouse", "Labs"]));
-
 module.exports = tail;
